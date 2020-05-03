@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="100dp" />
+
+
+        <TableLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:text="Fist Name: "
+                    android:textSize="16dp"
+                   />
+                <TextView
+                    android:id="@+id/tvFistName"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Last Name: "
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:id="@+id/tvLastName"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Sex: "
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:id="@+id/tvSex"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Birtday: "
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:id="@+id/tvBirthday"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Phone: "
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:id="@+id/tvPhone"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Address: "
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:id="@+id/tvAddress"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
